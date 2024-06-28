@@ -8,7 +8,7 @@
     "url": "https://github.com/clover/remote-pay-cloud-examples"
   },
   "scripts": {
-    "build": " SET NODE_OPTIONS=--openssl-legacy-provider && webpack && copyfiles -u 4 \"./node_modules/bootstrap/dist/css/bootstrap.css\" \"public/built\" ",
+    "build": "&& webpack && copyfiles -u 4 \"./node_modules/bootstrap/dist/css/bootstrap.css\" \"public/built\" ",
     "start": "node server.js",
     "watch": "webpack --watch"  },
   "dependencies": {
